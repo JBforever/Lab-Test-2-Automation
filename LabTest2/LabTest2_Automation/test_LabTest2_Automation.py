@@ -23,7 +23,7 @@ class LabTest_2():
         time.sleep(2)
 
         cemail = driver.find_element(By.ID, 'email_create')
-        cemail.send_keys("md.jeshad422@gmail.com")
+        cemail.send_keys("md.jeshad450@gmail.com")
 
         createaccountBtn = driver.find_element(By.CSS_SELECTOR, '#SubmitCreate > span')
         createaccountBtn.click()
