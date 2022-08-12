@@ -14,7 +14,6 @@ class LabTest_2():
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         driver.get('http://automationpractice.com/index.php')
         driver.maximize_window()
-        # time.sleep(2)
 
         # Account create
         signinBtn = driver.find_element(By.CSS_SELECTOR,
